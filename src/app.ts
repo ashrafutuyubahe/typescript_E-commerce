@@ -8,6 +8,12 @@ app.get('/',(req:Request,res:Response) =>{
   
 })
 
+app.post('/user',(req:Request,res:Response)=>{
+
+  
+
+})
+
 
 
 
