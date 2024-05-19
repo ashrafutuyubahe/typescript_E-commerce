@@ -23,7 +23,7 @@ Router.post("/adduser", async (req: Request, res: Response) => {
     //   [newUser.useremail]
     // );
     // if (checkUserExist) {
-    //   return res.status(401).send("user  already registered");
+    //   return res.status(401).send("user  already registered please  provide  other credentials");
     // }
 
     const insertUser = await dbconnnection.query(
